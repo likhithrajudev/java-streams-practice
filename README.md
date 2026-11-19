@@ -1,6 +1,6 @@
 # Java Streams: Zero to Advanced
 
-12 short lessons. Each one has **theory** (in the class Javadoc), a **runnable demo**, and **`// TODO` exercises**
+18 short lessons (185 exercises). Each one has **theory** (in the class Javadoc), a **runnable demo**, and **`// TODO` exercises**
 that check themselves. No Maven, no JUnit, no dependencies: just JDK 17+ (built and verified on JDK 21).
 
 ## How to learn with it
@@ -37,6 +37,19 @@ that check themselves. No Maven, no JUnit, no dependencies: just JDK 17+ (built 
 | 10 | Parallel streams | commonPool, when it helps and when it hurts, races, forEachOrdered, concurrent collectors | 7 |
 | 11 | Advanced patterns | zip, sliding window, top-N into a LinkedHashMap, filtering vs filter, null-safety, first-unique | 10 |
 | 12 | Capstone | order-analytics pipelines that combine everything | 10 |
+| 13 | Strings and text | `chars()`, `lines()`, `splitAsStream`, `Matcher.results()`, palindromes, anagrams, run-length encoding | 11 |
+| 14 | Maps and entries | streaming `entrySet()`, sort by value, invert a map, merge maps, histograms, leaderboards with an index | 12 |
+| 15 | Stream sources | `iterate`/`generate`, `Stream.builder`, `concat`, `ofNullable`, `BufferedReader.lines`, Iterables, `datesUntil`, enums | 12 |
+| 16 | Interview classics | FizzBuzz, primes, two-sum, duplicates, second-highest, prefix sums, Pascal's triangle | 13 |
+| 17 | Predict the output | a quiz: predict execution order, exceptions and collector behaviour *before* running | 14 |
+| 18 | Capstone 2 | a university gradebook: flatten, group, cross-query, format a report | 12 |
+
+### Suggested order and pacing
+
+- **01-12** are the core course. Do them in order.
+- **13-16** are practice packs: they only need lessons 01-07, so do them in any order, one per sitting.
+- **17** is a thinking exercise. Work out each answer on paper first. If you run it just to see the output, you lose the point of it.
+- **18** is the second capstone. Do it last, without peeking at hints for the first 10 minutes.
 
 ## Rules of thumb (the whole course in 10 lines)
 

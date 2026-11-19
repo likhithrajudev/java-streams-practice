@@ -7,7 +7,7 @@ src="src"
 if [[ "${1:-}" == "--solutions" ]]; then src="solutions/src"; shift; fi
 target="${1:-}"
 if [[ -z "$target" ]]; then
-  echo "Usage: ./run.sh [--solutions] <01..12 | all>"; ls src/streams | grep '^Lesson' | sed 's/\.java//'; exit 1
+  echo "Usage: ./run.sh [--solutions] <01..18 | all>"; ls src/streams | grep '^Lesson' | sed 's/\.java//'; exit 1
 fi
 
 out=".out/$(echo "$src" | tr '/' '_')"
